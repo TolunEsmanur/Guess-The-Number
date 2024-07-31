@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(255, 255, 0, 0.321);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 1.2rem;
+    margin-top: 2rem;
+}
+
+.find{
+    font-weight: bolder;
+    font-size: 1.3rem;
+    color:brown ;
+}
+
+#kutu, #btn{
+    padding: 0.4rem;
+    border-radius: 5px;
+}
+
+#btn{
+    width: 10vh;
+}
+
+.genel{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20vh;
+}
+
+.guess{
+    margin: auto;
+    margin-right: 5vh;
+    font-size: 3rem;
+    text-shadow: 5px 5px 15px;
+    color: rgba(165, 42, 42, 0.778);
+}
